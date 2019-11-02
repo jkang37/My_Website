@@ -146,6 +146,172 @@
     </item>
     
     <item>
+      <title>Data Processing and Plotting for Business Analysis in R</title>
+      <link>https://jkang37.github.io/publication/software/</link>
+      <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jkang37.github.io/publication/software/</guid>
+      <description>
+
+&lt;h2 id=&#34;category-of-functions&#34;&gt;Category of functions:&lt;/h2&gt;
+
+&lt;p&gt;The functions in this package is mainly distributed into the following three categories:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Processing Functions:&lt;/strong&gt; transfer between numerical and categorical data, impute missing values, and get special summary information.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Visualization Functions:&lt;/strong&gt; commonly used plots used to show patterns of data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Analysis Functions:&lt;/strong&gt; functions about basic data analysis&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;list-of-functions-and-their-features&#34;&gt;List of functions and their features:&lt;/h2&gt;
+
+&lt;p&gt;The following table summarizes the available functions in the package and their features. It will be updated with the package.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Function&amp;rsquo;s Name&lt;/th&gt;
+&lt;th&gt;Function&amp;rsquo;s Feature&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Processing Functions&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;column_class()&lt;/td&gt;
+&lt;td&gt;Separate features by categorical or numerical&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;num2ctg()&lt;/td&gt;
+&lt;td&gt;Numerical variable to categorical variabel&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ord_ctg2num()&lt;/td&gt;
+&lt;td&gt;Ordinal categorical variable to numerical variable&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;nom_ctg2num()&lt;/td&gt;
+&lt;td&gt;Nominal categorical variable to numerical variable by dummy&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;impute_missing()&lt;/td&gt;
+&lt;td&gt;impute missing value by mice&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Visualization Functions&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;bar_plot()&lt;/td&gt;
+&lt;td&gt;Stacked bar plot for multiple categories&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;bubble_plot()&lt;/td&gt;
+&lt;td&gt;Bubble plot with color and size showing more information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;corr_check()&lt;/td&gt;
+&lt;td&gt;Pairs plot to check correlation between variables&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;distribution_plot()&lt;/td&gt;
+&lt;td&gt;Three plotting types to show distribution&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;donut_plot()&lt;/td&gt;
+&lt;td&gt;Donut plot to show percentage&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;double_axis()&lt;/td&gt;
+&lt;td&gt;Combine bar plot and line plot with double axis&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;facet_bar()&lt;/td&gt;
+&lt;td&gt;Separate bar plots in small facet for multiple categories&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;horizontal_bar()&lt;/td&gt;
+&lt;td&gt;Horizontal bar plot showing percentage&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;label_bar_plot()&lt;/td&gt;
+&lt;td&gt;Bar plot with a small label&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;lines_plot()&lt;/td&gt;
+&lt;td&gt;Basic lines plot with options&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;lines_split_plot()&lt;/td&gt;
+&lt;td&gt;Using subplot to show series with different range&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;line_ann_plot()&lt;/td&gt;
+&lt;td&gt;Line plot with information on turning points&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;polar_cahrts()&lt;/td&gt;
+&lt;td&gt;Drawing radar plot&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;rank_plot()&lt;/td&gt;
+&lt;td&gt;Rank change plot of categories over index&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Data Analysis Functions&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;cal_pct()&lt;/td&gt;
+&lt;td&gt;Calculate percentage of each category&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;get_rank()&lt;/td&gt;
+&lt;td&gt;Get rank of each category&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;lin_predict()&lt;/td&gt;
+&lt;td&gt;Linear extrapolation with trend DLM&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;plm_basic()&lt;/td&gt;
+&lt;td&gt;Stepwise model selection for plm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>House Price Prediction Using Advanced Statistical Learning Method</title>
       <link>https://jkang37.github.io/project/house-price-project/</link>
       <pubDate>Thu, 31 Oct 2019 00:00:00 +0000</pubDate>
